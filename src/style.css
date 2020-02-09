@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(76, 109, 101);
+}
+
+.main_view {
+  background-color: rgba(123, 128, 170, 0.5);
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+  min-height: 90vh;
+  box-shadow: 0 0 20px rgb(255, 255, 255)
+}
+
+.form_cnt {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+
+.form_cnt h1 {
+  margin: 20px;
+}
+
+.form_cnt label {
+  font-size: 22px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.form_cnt input {
+  font-size: 20px;
+  padding: 3px;
+  margin: 10px;
+}
+
+.users_cnt {
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+}
+
+.users.cnt h3 {
+  font-size: 26px;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  background-color: #222;
+  margin: 10px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.user a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.user:hover {
+  box-shadow: 0 0 10px blue;
+}
+
+.user img {
+  box-shadow: 0 0 5px rgb(255, 255, 255)
+}
+
+.user a:hover {
+  color: orangered;
+}
