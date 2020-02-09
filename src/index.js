@@ -21,7 +21,7 @@ class App extends React.Component {
 		return(
 			<div className="main_view">
 				<div className="form_cnt">
-					<h1>Feel free to search gitHub users:</h1>
+					<h1>Feel free to search GitHub users:</h1>
 					<form onSubmit={event =>this.onSubmit(event)}>
 						<label htmlFor="searchText">Search by user name:</label>
 						<input 
